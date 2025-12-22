@@ -15,9 +15,7 @@ https://harmonicseries.streamlit.app/
 
 Deret harmonik merupakan deret matematika dengan bentuk:
 
-\[
-H_n = 1 + \frac{1}{2} + \frac{1}{3} + \dots + \frac{1}{n}
-\]
+1/1 + 1/2 +...+1/n
 
 Pada aplikasi ini, perhitungan dilakukan menggunakan:
 - **Metode Iteratif** (menggunakan perulangan)
