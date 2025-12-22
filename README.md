@@ -1,19 +1,62 @@
-# 🎈 Blank app template
+# 🧮 Harmonic Series Calculator (Iteratif vs Rekursif)
 
-A simple Streamlit app template for you to modify!
+Aplikasi web berbasis **Streamlit** untuk menghitung dan membandingkan **deret harmonik** menggunakan dua pendekatan algoritmik:
+- **Iteratif**
+- **Rekursif**
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Aplikasi ini juga menampilkan **waktu eksekusi** dari masing-masing metode serta **visualisasi grafik** perbandingannya.
 
-### How to run it on your own machine
+🔗 **Live Demo**:  
+https://harmonicseries.streamlit.app/
 
-1. Install the requirements
+---
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 📌 Deskripsi Singkat
 
-2. Run the app
+Deret harmonik merupakan deret matematika dengan bentuk:
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+\[
+H_n = 1 + \frac{1}{2} + \frac{1}{3} + \dots + \frac{1}{n}
+\]
+
+Pada aplikasi ini, perhitungan dilakukan menggunakan:
+- **Metode Iteratif** (menggunakan perulangan)
+- **Metode Rekursif** (menggunakan pemanggilan fungsi berulang)
+
+Tujuan utama aplikasi adalah:
+- Memahami perbedaan pendekatan algoritma
+- Membandingkan performa (waktu eksekusi)
+- Memberikan visualisasi hasil secara interaktif
+
+---
+
+## ✨ Fitur Utama
+
+- Input nilai `n` secara interaktif
+- Menampilkan proses penjumlahan deret
+- Perhitungan menggunakan metode:
+  - Iteratif
+  - Rekursif (dengan batas aman rekursi)
+- Perbandingan waktu eksekusi (ms)
+- Visualisasi grafik (Matplotlib)
+- Antarmuka sederhana
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Python 3**
+- **Streamlit**
+- **Matplotlib**
+- **Time & Contextlib**
+- **StringIO**
+
+---
+
+## 📂 Struktur Program
+
+```text
+.
+├── streamlit_app.py   # File utama aplikasi Streamlit
+├── requirements.txt   # Dependensi Python
+└── README.md          # Dokumentasi proyek
