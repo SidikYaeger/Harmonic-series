@@ -149,6 +149,7 @@ if st.button("Hitung Hasil", type="primary"):
     ceritanya ini footer eak
     
     ~Made by Ravananda & Zhafir~
+    jangan lupa mampir ke https://github.com/SidikYaeger
 
     """
     st.markdown(footer,unsafe_allow_html=True)
