@@ -47,19 +47,19 @@ def rekursif_visual(n):
     return x + (1.0 / n)
 
 def iteratif_visual(n):
-    total_val = 0.0
+    total = 0.0
     for i in range(1, n + 1):
         print("1/" + str(i), end="")
         if i < n:
             print(" + ", end="")
-        total_val = total_val + (1.0 / i)
-    return total_val
+        total = total + (1.0 / i)
+    return total
 
 def iteratif_pure(n):
-    total_val = 0.0
+    total = 0.0
     for i in range(1, n + 1):
-        total_val = total_val + (1.0 / i)
-    return total_val
+        total = total + (1.0 / i)
+    return total
 
 def rekursif_pure(n):
     if n == 1:
