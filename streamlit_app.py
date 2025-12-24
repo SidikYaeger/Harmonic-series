@@ -29,6 +29,7 @@ text-align: center;
 z-index: 100;
 }
 </style>
+"jangan lupa mampir ke github.com/SidikYaeger"
 <div class="footer">
 <p>~Made by Ravananda & Zhafir~</p>
 </div>
