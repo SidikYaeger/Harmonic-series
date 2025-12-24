@@ -176,4 +176,4 @@ if st.button("Hitung & Analisis", type="primary"):
         if avg_iteratif < avg_rekursif:
             st.success("🏆 **Kesimpulan:** Algoritma **Iteratif** lebih cepat secara rata-rata.")
         else:
-            st.success("🏆 **Kesimpulan:** Algoritma **Rekursif** lebih cepat secara rata-rata (Sangat jarang terjadi pada Python).")
+            st.success("🏆 **Kesimpulan:** Algoritma **Rekursif** lebih cepat secara rata-rata.")
